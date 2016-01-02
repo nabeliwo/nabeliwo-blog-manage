@@ -1,10 +1,14 @@
 # nabeliwo-blog
-自分のブログ用です。
-いろんな技術入れてこうって感じです。
+自分のブログ用の管理側です。SPAです。  
+サイト側は[nabeliwo-blog-site](https://github.com/nabeliwo/nabeliwo-blog-site)です。
 
-## Requires
+## 使っているもの
 - Node
 - gulp
+- hapi
+- eslint
+- React
+- Redux
 
 ## Get started
 ```
