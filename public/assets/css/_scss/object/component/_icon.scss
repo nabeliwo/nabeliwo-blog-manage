@@ -1,0 +1,33 @@
+//-------------------------------------//
+//  Icon
+//-------------------------------------//
+
+.c-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-icon--arrow-left {
+    @include r-sprite($arrow-left);
+
+    &.is-close { transform: rotate(180deg); }
+}
+.c-icon--option {
+    @include r-sprite($option-off);
+
+    &.is-active { @include r-sprite($option-on); }
+}
+.c-icon--category {
+    @include r-sprite($category-off);
+
+    &.is-active { @include r-sprite($category-on); }
+}
+.c-icon--tag {
+    @include r-sprite($tag-off);
+
+    &.is-active { @include r-sprite($tag-on); }
+}
+.c-icon--image {
+    @include r-sprite($image-off);
+
+    &.is-active { @include r-sprite($image-on); }
+}

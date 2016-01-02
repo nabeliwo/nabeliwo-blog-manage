@@ -1,0 +1,34 @@
+//-------------------------------------//
+//  Sidebar
+//-------------------------------------//
+
+#sidebar {
+    overflow: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    padding-top: 38px;
+    background: url(/assets/img/common/sidebar_bg.jpg) center center;
+    background-size: cover;
+    color: $light-font-color;
+    font-size: $font-size-ss;
+}
+.sidebar__items {
+    padding-bottom: 30px;
+    border-top: 1px solid #fff;
+
+    & > li {
+        .sidebar__link {
+            display: block;
+            padding: 12px 15px;
+
+            &:hover { background-color: #252629; }
+        }
+        &.is-active .sidebar__link {
+            background-color: $base-background-color;
+            color: $base-font-color;
+        }
+    }
+}

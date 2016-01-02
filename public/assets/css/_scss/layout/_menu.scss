@@ -1,0 +1,19 @@
+//-------------------------------------//
+//  Menu
+//-------------------------------------//
+
+#menu {
+    border: 1px solid #dfe5e7;
+    background-color: #fff;
+}
+.menu__link {
+    display: block;
+    padding: 8px 12px;
+    color: #3a3a3a;
+    font-size: $font-size-ss;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: #f7f8f9;
+    }
+}
