@@ -28,6 +28,7 @@ class App extends Component {
     this.props.toggleMenuVisible(this.props.menuVisible);
   }
 
+  // :TODO react-routerのIndexrouteに変更
   renderChildren() {
     const { children } = this.props;
 
