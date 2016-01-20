@@ -28,17 +28,6 @@ class App extends Component {
     this.props.toggleMenuVisible(this.props.menuVisible);
   }
 
-  // :TODO react-routerのIndexrouteに変更
-  renderChildren() {
-    const { children } = this.props;
-
-    if (children) {
-      return children;
-    }
-
-    return <Dashboard />;
-  }
-
   render() {
     return (
       <div>
@@ -52,7 +41,7 @@ class App extends Component {
 
         <div id="board">
           <div className="board__inner">
-            {this.renderChildren()}
+            {this.props.children}
           </div>
         </div>
       </div>

@@ -16,20 +16,20 @@ export default class ManagePost extends Component {
 
   renderTabMenu() {
     switch (this.props.managePostTab.current) {
-      case 'option':
-        return <TabOption />;
+    case 'option':
+      return <TabOption />;
 
-      case 'category':
-        return <TabTaxonomy name="カテゴリー" />;
+    case 'category':
+      return <TabTaxonomy name="カテゴリー" />;
 
-      case 'tag':
-        return <TabTaxonomy name="タグ" />;
+    case 'tag':
+      return <TabTaxonomy name="タグ" />;
 
-      case 'image':
-        return <TabImage />;
+    case 'image':
+      return <TabImage />;
 
-      default:
-        return <TabOption />;
+    default:
+      return <TabOption />;
     }
   }
 

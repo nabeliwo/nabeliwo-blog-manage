@@ -44,7 +44,7 @@ export const spriteConfig = {
   spriteSmith: {
     imgName: 'sprite.png',
     cssName: '_mixin_sprite.scss',
-    imgPath: '/public/assets/img/sprite.png'
+    imgPath: '/assets/img/sprite.png'
   },
   files: './public/assets/img/sprite/*.png',
   watch: './public/assets/img/sprite/',

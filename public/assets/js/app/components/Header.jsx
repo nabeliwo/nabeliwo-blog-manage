@@ -41,7 +41,7 @@ export default class Header extends Component {
 }
 
 Header.propTypes = {
-  handleHistory: PropTypes.func.isRequire,
+  handleHistory: PropTypes.func.isRequired,
   onMenuBtnClick: PropTypes.func.isRequired,
   menuVisible: PropTypes.bool.isRequired,
   pages: PropTypes.array.isRequired
