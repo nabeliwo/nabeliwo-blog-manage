@@ -19,6 +19,7 @@ config/
 
 # dist
 app.css
+_mixin_sprite.scss
 bundle.js
 bundle/
 
