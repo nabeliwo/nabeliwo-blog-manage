@@ -2,6 +2,49 @@
 //  PostList
 //==============================================
 
-.p-postList__sort {
+.p-postList__sort { display: inline-block; }
+.p-postList__search {
     display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+.p-postList__search__txt { display: inline-block; }
+.p-postList__search__btn {
+    margin-left: 5px;
+    padding: 0 10px;
+    font-size: $font-size-ss;
+    line-height: 24px;
+    vertical-align: top;
+}
+
+.p-postList__tab {
+    margin-bottom: 20px;
+    border-bottom: 1px solid $off-color;
+
+    & > li {
+        display: inline-block;
+    }
+}
+.p-postList__tab__link {
+    display: block;
+    padding: 0 12px;
+    border-bottom: 2px solid transparent;
+    color: $other-font-color;
+    font-weight: bold;
+    font-size: $font-size-s;
+    line-height: 35px;
+
+    &:hover { color: $base-site-color; }
+
+    &.is-active {
+        color: $base-site-color;
+        border-bottom-color: $base-site-color;
+    }
+}
+
+.p-postList__check { margin-bottom: 20px; }
+.p-postList__check__btn {
+    padding: 0 10px;
+    font-size: $font-size-ss;
+    line-height: 24px;
 }

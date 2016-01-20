@@ -1,0 +1,53 @@
+//==============================================
+//  Select
+//==============================================
+
+.c-select {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+
+    &:before {
+        position: absolute;
+        top: 50%;
+        content: "▼"
+    }
+
+    .c-select__inner {
+        position: relative;
+        margin: 0px;
+        padding: 0;
+        border-radius: 0;
+        border: 0;
+        background: none transparent;
+        color: inherit;
+        font-size: inherit;
+        vertical-align: middle;
+        appearance: none;
+    }
+
+    &.is-disabled {
+        opacity: .4;
+        background-color: #F7F8F9;
+    }
+}
+
+.c-select--small {
+    font-size: $font-size-ss;
+    
+    &:before {
+        font-size: $font-size-xs;
+        right: 5px;
+        margin-top: -5px;
+    }
+
+    .c-select__inner { padding: 4px 30px 3px 10px; }
+}
+
+.c-select--default {
+    border: 1px solid $off-color;
+    background-color: #fff;
+    color: $base-font-color;
+}
+
+
