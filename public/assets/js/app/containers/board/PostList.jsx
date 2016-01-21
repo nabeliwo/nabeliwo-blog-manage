@@ -48,7 +48,7 @@ export default class PostList extends Component {
           </div>
         </div>
 
-        <table className="c-table">
+        <table className="p-postList__table c-table">
           <thead>
             <tr>
               <td>
@@ -164,6 +164,19 @@ export default class PostList extends Component {
           </tr>
           </tbody>
         </table>
+
+        <ul className="c-pager">
+          <li><span className="c-pager__item">PAGE 3 of 15</span></li>
+          <li><a className="c-pager__item is-link" href="">＜ FIRST</a></li>
+          <li><a className="c-pager__item is-link" href="">＜ PREV</a></li>
+          <li><span className="c-pager__item">...</span></li>
+          <li><a className="c-pager__item is-link" href="">2</a></li>
+          <li><span className="c-pager__item is-current">3</span></li>
+          <li><a className="c-pager__item is-link" href="">4</a></li>
+          <li><span className="c-pager__item">...</span></li>
+          <li><a className="c-pager__item is-link" href="">NEXT ＞</a></li>
+          <li><a className="c-pager__item is-link" href="">LAST ＞</a></li>
+        </ul>
       </div>
     );
   }

@@ -1,0 +1,27 @@
+//==============================================
+//  Pager
+//==============================================
+
+.c-pager {
+    display: inline-block;
+    font-size: 0;
+
+    & > li {
+        display: inline-block;
+
+        &:not(:first-child) { margin-left: 6px; }
+    }
+}
+.c-pager__item {
+    display: inline-block;
+    padding: 8px;
+    background-color: $off-color;
+    font-size: $font-size-s;
+    line-height: 1;
+
+    &.is-current,
+    &.is-link:hover {
+        background-color: $base-site-color;
+        color: $light-font-color;
+    }
+}
