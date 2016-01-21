@@ -84,7 +84,11 @@ export default class PostList extends Component {
             </td>
             <td>nabeliwo</td>
             <td>2016/1/20 23:19:07</td>
-            <td></td>
+            <td>
+              <a className="u-hover" href="">
+                <i className="c-icon c-icon--link"></i>
+              </a>
+            </td>
           </tr>
           <tr>
             <td>
@@ -104,7 +108,11 @@ export default class PostList extends Component {
             </td>
             <td>nabeliwo</td>
             <td>2016/1/20 23:19:07</td>
-            <td></td>
+            <td>
+              <a className="u-hover" href="">
+                <i className="c-icon c-icon--link"></i>
+              </a>
+            </td>
           </tr>
           <tr>
             <td>
@@ -124,7 +132,11 @@ export default class PostList extends Component {
             </td>
             <td>nabeliwo</td>
             <td>2016/1/20 23:19:07</td>
-            <td></td>
+            <td>
+              <a className="u-hover" href="">
+                <i className="c-icon c-icon--link"></i>
+              </a>
+            </td>
           </tr>
           <tr>
             <td>
@@ -144,7 +156,11 @@ export default class PostList extends Component {
             </td>
             <td>nabeliwo</td>
             <td>2016/1/20 23:19:07</td>
-            <td></td>
+            <td>
+              <a className="u-hover" href="">
+                <i className="c-icon c-icon--link"></i>
+              </a>
+            </td>
           </tr>
           </tbody>
         </table>

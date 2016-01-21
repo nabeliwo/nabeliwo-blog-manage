@@ -31,3 +31,4 @@
 
     &.is-active { @include r-sprite($image-on); }
 }
+.c-icon--link { @include r-sprite($link); }
