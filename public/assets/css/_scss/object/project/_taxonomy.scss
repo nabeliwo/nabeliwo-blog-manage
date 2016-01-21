@@ -1,0 +1,33 @@
+//==============================================
+//  Taxonomy
+//==============================================
+
+.p-taxonomy__top { margin-bottom: 20px; }
+
+.p-taxonomy__sort { display: inline-block; }
+.p-taxonomy__search {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+.p-taxonomy__search__txt { display: inline-block; }
+.p-taxonomy__search__btn {
+    margin-left: 5px;
+    padding: 0 10px;
+    font-size: $font-size-ss;
+    line-height: 24px;
+    vertical-align: top;
+}
+
+.p-taxonomy__check { margin-bottom: 20px; }
+.p-taxonomy__check__btn {
+    padding: 0 10px;
+    font-size: $font-size-ss;
+    line-height: 24px;
+}
+
+.p-taxonomy__table {
+    margin-bottom: 20px;
+
+    tr > td:nth-child(5) { width: 60px; }
+}

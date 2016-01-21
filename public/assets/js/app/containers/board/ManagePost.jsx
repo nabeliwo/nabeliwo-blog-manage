@@ -9,7 +9,7 @@ import TabTaxonomy from '../../components/managePost/TabTaxonomy';
 import TabImage from '../../components/managePost/TabImage';
 import TabIcon from '../../components/managePost/TabIcon';
 
-export default class ManagePost extends Component {
+class ManagePost extends Component {
   handleSubmit(e) {
     e.preventDefault();
   }

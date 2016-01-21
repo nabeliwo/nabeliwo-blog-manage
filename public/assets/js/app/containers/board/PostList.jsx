@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-export default class PostList extends Component {
+class PostList extends Component {
   render() {
     return (
       <div>
@@ -66,102 +66,102 @@ export default class PostList extends Component {
             </tr>
           </thead>
           <tbody>
-          <tr>
-            <td>
-              <label className="c-checkBox c-checkBox--small">
-                <input className="c-checkBox__check" type="checkbox"/>
-                <span className="c-checkBox__txt"></span>
-              </label>
-            </td>
-            <td><a className="c-table__link" href="">【スプラトゥーンプレイ日記4】2016年イカがんばる</a></td>
-            <td>
-              <span>Diary</span>
-              <span>Web</span>
-            </td>
-            <td>
-              <span>WiiU</span>
-              <span>splatoon</span>
-            </td>
-            <td>nabeliwo</td>
-            <td>2016/1/20 23:19:07</td>
-            <td>
-              <a className="u-hover" href="">
-                <i className="c-icon c-icon--link"></i>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label className="c-checkBox c-checkBox--small">
-                <input className="c-checkBox__check" type="checkbox"/>
-                <span className="c-checkBox__txt"></span>
-              </label>
-            </td>
-            <td><a className="c-table__link" href="">【スプラトゥーンプレイ日記4】2016年イカがんばる</a></td>
-            <td>
-              <span>Diary</span>
-              <span>Web</span>
-            </td>
-            <td>
-              <span>WiiU</span>
-              <span>splatoon</span>
-            </td>
-            <td>nabeliwo</td>
-            <td>2016/1/20 23:19:07</td>
-            <td>
-              <a className="u-hover" href="">
-                <i className="c-icon c-icon--link"></i>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label className="c-checkBox c-checkBox--small">
-                <input className="c-checkBox__check" type="checkbox"/>
-                <span className="c-checkBox__txt"></span>
-              </label>
-            </td>
-            <td><a className="c-table__link" href="">【スプラトゥーンプレイ日記4】2016年イカがんばる</a></td>
-            <td>
-              <span>Diary</span>
-              <span>Web</span>
-            </td>
-            <td>
-              <span>WiiU</span>
-              <span>splatoon</span>
-            </td>
-            <td>nabeliwo</td>
-            <td>2016/1/20 23:19:07</td>
-            <td>
-              <a className="u-hover" href="">
-                <i className="c-icon c-icon--link"></i>
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label className="c-checkBox c-checkBox--small">
-                <input className="c-checkBox__check" type="checkbox"/>
-                <span className="c-checkBox__txt"></span>
-              </label>
-            </td>
-            <td><a className="c-table__link" href="">【スプラトゥーンプレイ日記4】2016年イカがんばる</a></td>
-            <td>
-              <span>Diary</span>
-              <span>Web</span>
-            </td>
-            <td>
-              <span>WiiU</span>
-              <span>splatoon</span>
-            </td>
-            <td>nabeliwo</td>
-            <td>2016/1/20 23:19:07</td>
-            <td>
-              <a className="u-hover" href="">
-                <i className="c-icon c-icon--link"></i>
-              </a>
-            </td>
-          </tr>
+            <tr>
+              <td>
+                <label className="c-checkBox c-checkBox--small">
+                  <input className="c-checkBox__check" type="checkbox"/>
+                  <span className="c-checkBox__txt"></span>
+                </label>
+              </td>
+              <td><a className="c-table__link" href="">【スプラトゥーンプレイ日記4】2016年イカがんばる</a></td>
+              <td>
+                <span>Diary</span>
+                <span>Web</span>
+              </td>
+              <td>
+                <span>WiiU</span>
+                <span>splatoon</span>
+              </td>
+              <td>nabeliwo</td>
+              <td>2016/1/20 23:19:07</td>
+              <td>
+                <a className="u-hover" href="">
+                  <i className="c-icon c-icon--link"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label className="c-checkBox c-checkBox--small">
+                  <input className="c-checkBox__check" type="checkbox"/>
+                  <span className="c-checkBox__txt"></span>
+                </label>
+              </td>
+              <td><a className="c-table__link" href="">【スプラトゥーンプレイ日記4】2016年イカがんばる</a></td>
+              <td>
+                <span>Diary</span>
+                <span>Web</span>
+              </td>
+              <td>
+                <span>WiiU</span>
+                <span>splatoon</span>
+              </td>
+              <td>nabeliwo</td>
+              <td>2016/1/20 23:19:07</td>
+              <td>
+                <a className="u-hover" href="">
+                  <i className="c-icon c-icon--link"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label className="c-checkBox c-checkBox--small">
+                  <input className="c-checkBox__check" type="checkbox"/>
+                  <span className="c-checkBox__txt"></span>
+                </label>
+              </td>
+              <td><a className="c-table__link" href="">【スプラトゥーンプレイ日記4】2016年イカがんばる</a></td>
+              <td>
+                <span>Diary</span>
+                <span>Web</span>
+              </td>
+              <td>
+                <span>WiiU</span>
+                <span>splatoon</span>
+              </td>
+              <td>nabeliwo</td>
+              <td>2016/1/20 23:19:07</td>
+              <td>
+                <a className="u-hover" href="">
+                  <i className="c-icon c-icon--link"></i>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label className="c-checkBox c-checkBox--small">
+                  <input className="c-checkBox__check" type="checkbox"/>
+                  <span className="c-checkBox__txt"></span>
+                </label>
+              </td>
+              <td><a className="c-table__link" href="">【スプラトゥーンプレイ日記4】2016年イカがんばる</a></td>
+              <td>
+                <span>Diary</span>
+                <span>Web</span>
+              </td>
+              <td>
+                <span>WiiU</span>
+                <span>splatoon</span>
+              </td>
+              <td>nabeliwo</td>
+              <td>2016/1/20 23:19:07</td>
+              <td>
+                <a className="u-hover" href="">
+                  <i className="c-icon c-icon--link"></i>
+                </a>
+              </td>
+            </tr>
           </tbody>
         </table>
 

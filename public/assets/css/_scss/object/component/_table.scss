@@ -16,10 +16,6 @@
                 padding-right: 2px;
                 width: 30px;
             }
-            &:nth-child(3) { min-width: 100px; }
-            &:nth-child(4) { min-width: 120px; }
-            &:nth-child(5),
-            &:nth-child(6) { white-space: nowrap; }
         }
     }
 
@@ -30,10 +26,6 @@
 
         &:first-child { border-top: 1px solid $off-color; }
         &:nth-child(odd) { background-color: #FFF; }
-
-        & > td {
-            
-        }
     }
 }
 .c-table__link {
