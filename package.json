@@ -47,6 +47,7 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
+    "axios": "^0.9.1",
     "config": "^1.17.1",
     "handlebars": "^4.0.5",
     "hapi": "^11.1.2",

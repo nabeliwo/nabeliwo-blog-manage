@@ -5,7 +5,6 @@ import { bindActionCreators } from 'redux';
 export default class TaxonomyList extends Component {
   constructor(props) {
     super(props);
-    console.log(this.props);
   }
 
   render() {

@@ -7,6 +7,8 @@ import ManagePost from './containers/board/ManagePost';
 import PostList from './containers/board/PostList';
 import Category from './containers/board/Category';
 import Tag from './containers/board/Tag';
+import Portfolio from './containers/board/Portfolio';
+import About from './containers/board/About';
 
 
 export default (
@@ -17,6 +19,8 @@ export default (
       <Route path="/post/" component={PostList} />
       <Route path="/category/" component={Category} />
       <Route path="/tag/" component={Tag} />
+      <Route path="/portfolio/" component={Portfolio} />
+      <Route path="/about/" component={About} />
       <Route path="/*" />
     </Route>
   </Router>

@@ -100,7 +100,7 @@
     "func-style": [2, "declaration", { "allowArrowFunctions": true }],
     "id-length": 0,
     "id-match": 0,
-    "indent": [1, 2],
+    "indent": [1, 2, {"SwitchCase": 1}],
     "key-spacing": 0,
     "linebreak-style": [1, "unix"],
     "max-nested-callbacks": [1, 3],

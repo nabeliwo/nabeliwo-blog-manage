@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import { Link } from 'react-router';
 
 export default class SidebarItem extends Component {
   render() {
@@ -6,14 +7,13 @@ export default class SidebarItem extends Component {
 
     return (
       <li className={(location.pathname === url) ? 'is-active' : ''}>
-        <a className={clazz} href={url} onClick={this.props.handleHistory}>{children}</a>
+        <Link className={clazz} to={url}>{children}</Link>
       </li>
     );
   }
 }
 
 SidebarItem.propTypes = {
-  handleHistory: PropTypes.func.isRequired,
   clazz: PropTypes.string.isRequired,
   url: PropTypes.string.isRequired
 };

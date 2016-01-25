@@ -13,15 +13,6 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.onMenuBtnClick = this.onMenuBtnClick.bind(this);
-    this.handleHistory = this.handleHistory.bind(this);
-  }
-
-  handleHistory(e) {
-    e.preventDefault();
-
-    const path = e.target.getAttribute('href');
-
-    this.props.history.push(path);
   }
 
   onMenuBtnClick() {
@@ -31,13 +22,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header handleHistory={this.handleHistory}
-                onMenuBtnClick={this.onMenuBtnClick}
+        <Header onMenuBtnClick={this.onMenuBtnClick}
                 menuVisible={this.props.menuVisible}
                 pages={this.props.pages} />
 
-        <Sidebar handleHistory={this.handleHistory}
-                 pages={this.props.pages} />
+        <Sidebar pages={this.props.pages} />
 
         <div id="board">
           <div className="board__inner">
