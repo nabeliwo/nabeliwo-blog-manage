@@ -39,11 +39,12 @@ module.exports = db => {
       config: {
         handler: (request, reply) => {
           const collection = db.collection('users');
+          const payload = request.payload;
           const user = {
-            login: request.payload.login,
-            pass: request.payload.pass,
-            email: request.payload.email,
-            display_name: request.payload.display_name || request.payload.login
+            login: payload.login,
+            pass: payload.pass,
+            email: payload.email,
+            display_name: payload.display_name || payload.login
           };
 
           collection.insert(user, (err, result) => {

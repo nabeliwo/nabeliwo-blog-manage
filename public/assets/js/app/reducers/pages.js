@@ -9,7 +9,7 @@ const initialState = [
   },
   {
     name: '記事の管理',
-    url: '/post/'
+    url: '/posts/'
   },
   {
     name: 'カテゴリー',

@@ -16,7 +16,8 @@ export default (
     <Route path="/" component={App}>
       <IndexRoute component={Dashboard} />
       <Route path="/post/create/" component={ManagePost} />
-      <Route path="/post/" component={PostList} />
+      <Route path="/post/edit/:postId" component={ManagePost} />
+      <Route path="/posts/" component={PostList} />
       <Route path="/category/" component={Category} />
       <Route path="/tag/" component={Tag} />
       <Route path="/portfolio/" component={Portfolio} />
