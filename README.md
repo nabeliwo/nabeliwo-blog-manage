@@ -1,6 +1,6 @@
 # nabeliwo-blog
-自分のブログの管理側です。SPAです。
-サイト側は[nabeliwo-blog-site](https://github.com/nabeliwo/nabeliwo-blog-site)です。
+nabeliwoのブログの管理側です。
+サイト側は[nabeliwo-portfolio-site](https://github.com/nabeliwo/nabeliwo-portfolio-site)です。
 
 ## 使っているもの
 - Node
